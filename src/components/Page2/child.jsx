@@ -12,12 +12,12 @@ export default class parent extends Component {
     //life cycle methods
 
     componentWillMount(){
-        alert("before rendering elemnts")
+        // alert("before rendering elemnts")
 
     }
 
     componentDidMount(){
-        alert("after rendering elemnts")
+        // alert("after rendering elemnts")
         this.setState({backgroundColor:this.props.bg_color})
     }
 
@@ -32,7 +32,7 @@ export default class parent extends Component {
     }
 
     componentWillUnmount(){
-        alert("before leaving component")
+        // alert("before leaving component")
     }
 
     render() {
